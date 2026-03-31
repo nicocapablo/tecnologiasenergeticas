@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador d'Exàmen - Energies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pràctica d'Energia</h1>
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <p id="counter">Pregunta 0 de 0</p>
+        </header>
+
+        <main id="quiz-card">
+            <div id="question-text">Carregant preguntes...</div>
+            
+            <div id="options-container">
+                </div>
+
+            <div id="feedback-container" class="hidden">
+                <div id="feedback-content">
+                    <h3 id="feedback-title">Resultat</h3>
+                    <div id="feedback-text"></div>
+                </div>
+                <button id="next-btn">Següent pregunta</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="preguntas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
