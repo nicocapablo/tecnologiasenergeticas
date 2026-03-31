@@ -207,7 +207,7 @@ const bancoDePreguntas = [
     ],
     correcta: "d",
     feedback: "Es una medida de la utilización del combustible. Se define como la energía total liberada por fisión por unidad de masa de metal pesado (normalmente uranio) cargado inicialmente. Se mide habitualmente en Megavatios-día por tonelada ($MWd/t$)."
-  }
+  },
 {
     id: 17,
     tipo: "teoria",
@@ -456,7 +456,7 @@ const bancoDePreguntas = [
     ],
     correcta: "c",
     feedback: "En tornar a escalfar el vapor després de la primera etapa d'expansió, aconseguim que el vapor es mantingui més 'sec' (major títol) al final de l'expansió, evitant que les gotes d'aigua danyin els àleps de la turbina i millorant l'eficiència tèrmica."
-  }
+  },
 {
     id: 36,
     tipo: "teoria",
@@ -703,7 +703,7 @@ const bancoDePreguntas = [
     ],
     correcta: "c",
     feedback: "L'economitzador aprofita la calor 'residual' dels gasos de combustió per preescalfar l'aigua que va cap a la caldera. Això millora l'eficiència perquè la caldera no ha d'escalfar l'aigua des de tan avall."
-  }
+  },
 {
     id: 55,
     tipo: "teoria",
@@ -1015,7 +1015,7 @@ const bancoDePreguntas = [
     ],
     correcta: "c",
     feedback: "La **Heat Recovery Steam Generator** (HRSG) és el nexe d'unió: utilitza els gasos calents que surten de la turbina de gas per generar el vapor que mourà la turbina de vapor del segon cicle."
-  }
+  },
 {
     id: 79,
     tipo: "teoria",
@@ -1314,7 +1314,7 @@ const bancoDePreguntas = [
     ],
     correcta: "b",
     feedback: "1. Potència tèrmica d'entrada: $P_t = \frac{400 \text{ MW}}{0.55} = 727.27 \text{ MW} = 727,270 \text{ kJ/s}$. <br><br> 2. Cabal ($Q$): $Q = \frac{727,270 \text{ kJ/s}}{36,000 \text{ kJ/m}^3} = 20.20 \text{ m}^3\text{/s}$."
-  }
+  },
 {
     id: 102,
     tipo: "teoria",
@@ -1613,7 +1613,7 @@ const bancoDePreguntas = [
     ],
     correcta: "c",
     feedback: "És la barrera física infranquejable que demostra que cap màquina eòlica pot capturar més de 16/27 de l'energia cinètica del vent."
-  }
+  },
 {
     id: 125,
     tipo: "teoria",
@@ -1912,7 +1912,7 @@ const bancoDePreguntas = [
     ],
     correcta: "a",
     feedback: "Quan es tanca ràpidament la vàlvula d'una turbina, l'aigua té una inèrcia que podria rebentar la canonada. La xemeneia d'equilibri permet que l'aigua pugi per ella, esmorteint la sobrepressió."
-  }
+  },
 {
     id: 148,
     tipo: "teoria",
@@ -2211,7 +2211,7 @@ const bancoDePreguntas = [
     ],
     correcta: "a",
     feedback: "El gas natural és principalment Metà ($CH_4$), normalment en una proporció d'entre el 85% i el 98% segons l'origen."
-  }
+  },
 {
     id: 171,
     tipo: "teoria",
@@ -2523,7 +2523,7 @@ const bancoDePreguntas = [
     ],
     correcta: "b",
     feedback: "És l'element clau que connecta els dos cicles: fa servir la calor 'de sobres' de la turbina de gas per bullir l'aigua de la turbina de vapor."
-  }
+  },
 {
     id: 195,
     tipo: "teoria",
@@ -2835,7 +2835,7 @@ const bancoDePreguntas = [
     ],
     correcta: "b",
     feedback: "Un Pinch-point baix vol dir que aprofitem millor la calor, però com que la diferència de temperatura és petita, necessitem una superfície d'intercanvi molt més gran i cara."
-  }
+  },
 {
     id: 219,
     tipo: "calculo",
@@ -3147,7 +3147,7 @@ const bancoDePreguntas = [
     ],
     correcta: "b",
     feedback: "El vapor saturat que surt del calderí s'escalfa més per assegurar que entri a la turbina amb la màxima entalpia possible i sense gotes de líquid."
-  }
+  },
 {
     id: 243,
     tipo: "teoria",
@@ -3459,7 +3459,7 @@ const bancoDePreguntas = [
     ],
     correcta: "b",
     feedback: "L'aire calent és menys dens. El compressor ha de fer més feina per moure la mateixa massa d'aire, i el rendiment global i la potència cauen."
-  }
+  },
 {
     id: 267,
     tipo: "teoria",
@@ -3771,7 +3771,7 @@ const bancoDePreguntas = [
     ],
     correcta: "b",
     feedback: "La reacció és: $CH_4 + 2(O_2 + 3.76 N_2) \rightarrow CO_2 + 2H_2O + 7.52 N_2$. El nitrogen de l'aire no reacciona però surt amb els fums."
-  }
+  },
 {
     id: 291,
     tipo: "calculo",
@@ -4032,3 +4032,4 @@ const bancoDePreguntas = [
     correcta: "b",
     feedback: "1. Potència tèrmica ($Q_{in}$): $10 \text{ m}^3\text{/s} \cdot 35000 \text{ kJ/m}^3 = 350,000 \text{ kJ/s} = 350 \text{ MW}$. <br> 2. Rendiment: $180 / 350 = 0.5142 \approx 51.4\\%$."
   }
+];
