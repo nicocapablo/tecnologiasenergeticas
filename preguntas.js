@@ -24,7 +24,7 @@ const bancoDePreguntas = [
       "d) Si s'augmenta el rendiment global de la central"
     ],
     correcta: "d",
-    feedback: "El 'Heat Rate' és el paràmetre invers al rendiment ($\eta$). Es defineix com la quantitat d'energia tèrmica (combustible) necessària per produir una unitat d'energia elèctrica. <br><br>Matemàticament: $Heat Rate = \\frac{1}{\eta}$. <br>Per tant, si el rendiment global de la central augmenta, la central és més eficient i necessita menys calor per cada kWh generat, cosa que fa disminuir el Heat Rate."
+    feedback: "El 'Heat Rate' és el paràmetre invers al rendiment ($\\eta$). Es defineix com la quantitat d'energia tèrmica (combustible) necessària per produir una unitat d'energia elèctrica. <br><br>Matemàticament: $Heat Rate = \\frac{1}{\\eta}$. <br>Per tant, si el rendiment global de la central augmenta, la central és més eficient i necessita menys calor per cada kWh generat, cosa que fa disminuir el Heat Rate."
   },
   {
     id: 3,
@@ -297,7 +297,7 @@ const bancoDePreguntas = [
       "d) Si incrementamos el consumo de combustible para obtener la misma energía"
     ],
     correcta: "a",
-    feedback: "Recorda que el **Heat Rate** és la inversa del rendiment ($\eta$). <br><br>$Heat Rate = \\frac{\\text{Energia consumida (calor)}}{\\text{Energia elèctrica generada}} = \\frac{1}{\eta}$. <br>Si el rendiment global millora, el número de calories necessàries per generar 1 kWh disminueix, i per tant el Heat Rate es redueix."
+    feedback: "Recorda que el **Heat Rate** és la inversa del rendiment ($\\eta$). <br><br>$Heat Rate = \\frac{\\text{Energia consumida (calor)}}{\\text{Energia elèctrica generada}} = \\frac{1}{\\eta}$. <br>Si el rendiment global millora, el número de calories necessàries per generar 1 kWh disminueix, i per tant el Heat Rate es redueix."
   },
   {
     id: 24,
@@ -363,7 +363,7 @@ const bancoDePreguntas = [
       "d) 2100 kcal/kWh"
     ],
     correcta: "a",
-    feedback: "Pasos per al càlcul: <br><br> 1. Calculem el rendiment ($\eta$): <br> $\eta = \\frac{P_{electrica}}{P_{termica}} = \\frac{405}{737} = 0.5495$ (54.95%). <br><br> 2. Sabem que 1 kWh equival a 860 kcal. <br><br> 3. El Heat Rate és la quantitat de kcal consumides per cada kWh elèctric: <br> $Heat Rate = \\frac{860}{\eta} = \\frac{860}{0.5495} = 1565.05 \\text{ kcal/kWh}$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Calculem el rendiment ($\\eta$): <br> $\\eta = \\frac{P_{electrica}}{P_{termica}} = \\frac{405}{737} = 0.5495$ (54.95%). <br><br> 2. Sabem que 1 kWh equival a 860 kcal. <br><br> 3. El Heat Rate és la quantitat de kcal consumides per cada kWh elèctric: <br> $Heat Rate = \\frac{860}{\\eta} = \\frac{860}{0.5495} = 1565.05 \\text{ kcal/kWh}$."
   },
   {
     id: 29,
@@ -585,7 +585,7 @@ const bancoDePreguntas = [
       "d) 9530 MWd/tU"
     ],
     correcta: "b",
-    feedback: "El Burn-up es calcula sobre la potència TÈRMICA: <br><br> 1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \\frac{P_{elèctrica}}{\eta} = \\frac{1050 \\text{ MW}}{0.335} = 3134.33 \\text{ MWt}$. <br><br> 2. Calculem l'energia tèrmica total generada ($E_t$): <br> $E_t = P_t \\cdot t = 3134.33 \\text{ MW} \\cdot 590 \\text{ dies} = 1,849,254 \\text{ MWd}$. <br><br> 3. Dividim per la massa de combustible ($M_u$): <br> $Burn\\text{-}up = \\frac{1,849,254}{65 \\text{ t}} = 28450 \\text{ MWd/tU}$."
+    feedback: "El Burn-up es calcula sobre la potència TÈRMICA: <br><br> 1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \\frac{P_{elèctrica}}{\\eta} = \\frac{1050 \\text{ MW}}{0.335} = 3134.33 \\text{ MWt}$. <br><br> 2. Calculem l'energia tèrmica total generada ($E_t$): <br> $E_t = P_t \\cdot t = 3134.33 \\text{ MW} \\cdot 590 \\text{ dies} = 1,849,254 \\text{ MWd}$. <br><br> 3. Dividim per la massa de combustible ($M_u$): <br> $Burn\\text{-}up = \\frac{1,849,254}{65 \\text{ t}} = 28450 \\text{ MWd/tU}$."
   },
   {
     id: 46,
@@ -611,7 +611,7 @@ const bancoDePreguntas = [
       "d) 42.5 m³/s"
     ],
     correcta: "b",
-    feedback: "Utilitzem la fórmula de la potència hidroelèctrica: $P = \rho \\cdot g \\cdot Q \\cdot H \\cdot \eta$. <br><br> 1. Dades: $P = 50 \\cdot 10^6 \\text{ W}$, $\rho = 1000$, $g = 9.81$, $H = 120$, $\eta = 0.88$. <br><br> 2. Aïllem $Q$: <br> $Q = \\frac{P}{\rho \\cdot g \\cdot H \\cdot \eta} = \\frac{50,000,000}{1000 \\cdot 9.81 \\cdot 120 \\cdot 0.88}$. <br><br> 3. Resultat: $Q = \\frac{50,000,000}{1,035,936} = 48.26 \\text{ m}^3\\text{/s}$."
+    feedback: "Utilitzem la fórmula de la potència hidroelèctrica: $P = \rho \\cdot g \\cdot Q \\cdot H \\cdot \\eta$. <br><br> 1. Dades: $P = 50 \\cdot 10^6 \\text{ W}$, $\rho = 1000$, $g = 9.81$, $H = 120$, $\\eta = 0.88$. <br><br> 2. Aïllem $Q$: <br> $Q = \\frac{P}{\rho \\cdot g \\cdot H \\cdot \\eta} = \\frac{50,000,000}{1000 \\cdot 9.81 \\cdot 120 \\cdot 0.88}$. <br><br> 3. Resultat: $Q = \\frac{50,000,000}{1,035,936} = 48.26 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 48,
@@ -754,7 +754,7 @@ const bancoDePreguntas = [
       "d) Si aumenta el consumo de combustible para generar la misma energía"
     ],
     correcta: "b",
-    feedback: "El **Heat Rate** és la inversa del rendiment ($\eta$). <br><br>$Heat Rate = \\frac{1}{\eta}$. <br>Per tant, qualsevol millora en el rendiment global de la planta (aprofitar millor el combustible) resulta directament en una disminució del Heat Rate (es necessiten menys kJ per cada kWh generat)."
+    feedback: "El **Heat Rate** és la inversa del rendiment ($\\eta$). <br><br>$Heat Rate = \\frac{1}{\\eta}$. <br>Per tant, qualsevol millora en el rendiment global de la planta (aprofitar millor el combustible) resulta directament en una disminució del Heat Rate (es necessiten menys kJ per cada kWh generat)."
   },
   {
     id: 59,
@@ -819,7 +819,7 @@ const bancoDePreguntas = [
       "d) 18900 MWd/tU"
     ],
     correcta: "b",
-    feedback: "1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \\frac{P_{elèctrica}}{\eta} = \\frac{1010 \\text{ MW}}{0.336} = 3005.95 \\text{ MWt}$. <br><br> 2. Energia tèrmica total: <br> $E_t = 3005.95 \\text{ MWt} \\cdot 425 \\text{ dies} = 1,277,530 \\text{ MWd}$. <br><br> 3. Burn-up: <br> $BU = \\frac{1,277,530 \\text{ MWd}}{63 \\text{ t}} = 20278.25 \\text{ MWd/tU}$."
+    feedback: "1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \\frac{P_{elèctrica}}{\\eta} = \\frac{1010 \\text{ MW}}{0.336} = 3005.95 \\text{ MWt}$. <br><br> 2. Energia tèrmica total: <br> $E_t = 3005.95 \\text{ MWt} \\cdot 425 \\text{ dies} = 1,277,530 \\text{ MWd}$. <br><br> 3. Burn-up: <br> $BU = \\frac{1,277,530 \\text{ MWd}}{63 \\text{ t}} = 20278.25 \\text{ MWd/tU}$."
   },
   {
     id: 64,
@@ -858,7 +858,7 @@ const bancoDePreguntas = [
       "d) 1250 MW"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica total generada: <br> $E_t = BU \\cdot Masa = 9205 \\text{ MWd/tU} \\cdot 75 \\text{ t} = 690,375 \\text{ MWd}$. <br><br> 2. Potència tèrmica mitjana ($P_t$): <br> $P_t = \\frac{690,375 \\text{ MWd}}{213 \\text{ dies}} = 3241.2 \\text{ MWt}$. <br><br> 3. Potència elèctrica ($P_e$): <br> $P_e = P_t \\cdot \eta = 3241.2 \\cdot 0.34 = 1102 \\text{ MW}$."
+    feedback: "1. Energia tèrmica total generada: <br> $E_t = BU \\cdot Masa = 9205 \\text{ MWd/tU} \\cdot 75 \\text{ t} = 690,375 \\text{ MWd}$. <br><br> 2. Potència tèrmica mitjana ($P_t$): <br> $P_t = \\frac{690,375 \\text{ MWd}}{213 \\text{ dies}} = 3241.2 \\text{ MWt}$. <br><br> 3. Potència elèctrica ($P_e$): <br> $P_e = P_t \\cdot \\eta = 3241.2 \\cdot 0.34 = 1102 \\text{ MW}$."
   },
   {
     id: 67,
@@ -1066,7 +1066,7 @@ const bancoDePreguntas = [
       "d) 31.8%"
     ],
     correcta: "c",
-    feedback: "Pasos per al càlcul: <br><br> 1. Energia elèctrica total generada ($E_e$): <br> $1050 \\text{ MW} \\cdot 280 \\text{ dies} = 294,000 \\text{ MWd}$. <br><br> 2. Energia tèrmica total consumida ($E_t$): <br> $12500 \\text{ MWd/tU} \\cdot 72 \\text{ t} = 900,000 \\text{ MWd}$. <br><br> 3. Rendiment ($\eta$): <br> $\eta = \\frac{E_e}{E_t} = \\frac{294,000}{900,000} = 0.326 \\text{ (aprox. 33.3% segons dades de l'enunciat)}$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Energia elèctrica total generada ($E_e$): <br> $1050 \\text{ MW} \\cdot 280 \\text{ dies} = 294,000 \\text{ MWd}$. <br><br> 2. Energia tèrmica total consumida ($E_t$): <br> $12500 \\text{ MWd/tU} \\cdot 72 \\text{ t} = 900,000 \\text{ MWd}$. <br><br> 3. Rendiment ($\\eta$): <br> $\\eta = \\frac{E_e}{E_t} = \\frac{294,000}{900,000} = 0.326 \\text{ (aprox. 33.3% segons dades de l'enunciat)}$."
   },
   {
     id: 83,
@@ -2132,7 +2132,7 @@ const bancoDePreguntas = [
       "d) 92 m"
     ],
     correcta: "b",
-    feedback: "1. Fórmula: $P = \eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $15,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot 20 \\cdot h$. <br> 3. $h = 15,000,000 / 176,580 = 84.95 \\text{ m} \approx 85 \\text{ m}$."
+    feedback: "1. Fórmula: $P = \\eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $15,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot 20 \\cdot h$. <br> 3. $h = 15,000,000 / 176,580 = 84.95 \\text{ m} \approx 85 \\text{ m}$."
   },
   {
     id: 165,
@@ -2405,7 +2405,7 @@ const bancoDePreguntas = [
       "d) 20,1 m3/s"
     ],
     correcta: "b",
-    feedback: "1. Fórmula: $P = \eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $10,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot Q \\cdot 50$. <br> 3. $Q = 10,000,000 / 441,450 = 22.65 \\text{ m}^3\\text{/s}$."
+    feedback: "1. Fórmula: $P = \\eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $10,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot Q \\cdot 50$. <br> 3. $Q = 10,000,000 / 441,450 = 22.65 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 186,
@@ -3562,7 +3562,7 @@ const bancoDePreguntas = [
       "d) 25%"
     ],
     correcta: "b",
-    feedback: "$\\eta = (W_t - W_c) / Q_{in} = (550 - 250) / 750 = 300 / 750 = 0.40$ (40%)."
+    feedback: "$\\\eta = (W_t - W_c) / Q_{in} = (550 - 250) / 750 = 300 / 750 = 0.40$ (40%)."
   },
   {
     id: 275,
