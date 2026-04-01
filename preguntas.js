@@ -24,7 +24,7 @@ const bancoDePreguntas = [
       "d) Si s'augmenta el rendiment global de la central"
     ],
     correcta: "d",
-    feedback: "El 'Heat Rate' és el paràmetre invers al rendiment ($\eta$). Es defineix com la quantitat d'energia tèrmica (combustible) necessària per produir una unitat d'energia elèctrica. <br><br>Matemàticament: $Heat Rate = \frac{1}{\eta}$. <br>Per tant, si el rendiment global de la central augmenta, la central és més eficient i necessita menys calor per cada kWh generat, cosa que fa disminuir el Heat Rate."
+    feedback: "El 'Heat Rate' és el paràmetre invers al rendiment ($\eta$). Es defineix com la quantitat d'energia tèrmica (combustible) necessària per produir una unitat d'energia elèctrica. <br><br>Matemàticament: $Heat Rate = \\frac{1}{\eta}$. <br>Per tant, si el rendiment global de la central augmenta, la central és més eficient i necessita menys calor per cada kWh generat, cosa que fa disminuir el Heat Rate."
   },
   {
     id: 3,
@@ -141,7 +141,7 @@ const bancoDePreguntas = [
       "d) 1361 kJ/m²dia"
     ],
     correcta: "a",
-    feedback: "La constant solar és la quantitat d'energia solar que arriba per unitat de temps i superfície a la part superior de l'atmosfèra terrestre en un pla perpendicular als rajos. El seu valor mitjà és d'aproximadament $1361 \text{ W/m}^2$."
+    feedback: "La constant solar és la quantitat d'energia solar que arriba per unitat de temps i superfície a la part superior de l'atmosfèra terrestre en un pla perpendicular als rajos. El seu valor mitjà és d'aproximadament $1361 \\text{ W/m}^2$."
   },
   {
     id: 12,
@@ -297,7 +297,7 @@ const bancoDePreguntas = [
       "d) Si incrementamos el consumo de combustible para obtener la misma energía"
     ],
     correcta: "a",
-    feedback: "Recorda que el **Heat Rate** és la inversa del rendiment ($\eta$). <br><br>$Heat Rate = \frac{\text{Energia consumida (calor)}}{\text{Energia elèctrica generada}} = \frac{1}{\eta}$. <br>Si el rendiment global millora, el número de calories necessàries per generar 1 kWh disminueix, i per tant el Heat Rate es redueix."
+    feedback: "Recorda que el **Heat Rate** és la inversa del rendiment ($\eta$). <br><br>$Heat Rate = \\frac{\\text{Energia consumida (calor)}}{\\text{Energia elèctrica generada}} = \\frac{1}{\eta}$. <br>Si el rendiment global millora, el número de calories necessàries per generar 1 kWh disminueix, i per tant el Heat Rate es redueix."
   },
   {
     id: 24,
@@ -323,7 +323,7 @@ const bancoDePreguntas = [
       "d) Únicamente podemos saber qué pasará con la potencia eléctrica si conocemos la curva de potencia"
     ],
     correcta: "c",
-    feedback: "Físicament, la potència disponible en el vent es calcula com: $P = \frac{1}{2} \cdot \rho \cdot A \cdot v^3$. <br><br>Com que la potència depèn del **cub de la velocitat** ($v^3$), si la velocitat es multiplica per 2, la potència es multiplica per $2^3 = 8$. <br>Nota: Tot i que en un aerogenerador real hi ha límits per la corba de potència, la pregunta es refereix a la relació física fonamental."
+    feedback: "Físicament, la potència disponible en el vent es calcula com: $P = \\frac{1}{2} \\cdot \rho \\cdot A \\cdot v^3$. <br><br>Com que la potència depèn del **cub de la velocitat** ($v^3$), si la velocitat es multiplica per 2, la potència es multiplica per $2^3 = 8$. <br>Nota: Tot i que en un aerogenerador real hi ha límits per la corba de potència, la pregunta es refereix a la relació física fonamental."
   },
   {
     id: 26,
@@ -363,7 +363,7 @@ const bancoDePreguntas = [
       "d) 2100 kcal/kWh"
     ],
     correcta: "a",
-    feedback: "Pasos per al càlcul: <br><br> 1. Calculem el rendiment ($\eta$): <br> $\eta = \frac{P_{electrica}}{P_{termica}} = \frac{405}{737} = 0.5495$ (54.95%). <br><br> 2. Sabem que 1 kWh equival a 860 kcal. <br><br> 3. El Heat Rate és la quantitat de kcal consumides per cada kWh elèctric: <br> $Heat Rate = \frac{860}{\eta} = \frac{860}{0.5495} = 1565.05 \text{ kcal/kWh}$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Calculem el rendiment ($\eta$): <br> $\eta = \\frac{P_{electrica}}{P_{termica}} = \\frac{405}{737} = 0.5495$ (54.95%). <br><br> 2. Sabem que 1 kWh equival a 860 kcal. <br><br> 3. El Heat Rate és la quantitat de kcal consumides per cada kWh elèctric: <br> $Heat Rate = \\frac{860}{\eta} = \\frac{860}{0.5495} = 1565.05 \\text{ kcal/kWh}$."
   },
   {
     id: 29,
@@ -377,7 +377,7 @@ const bancoDePreguntas = [
       "d) 40%"
     ],
     correcta: "c",
-    feedback: "Pasos per al càlcul: <br><br> 1. Potència total del parc ($P_{total}$): $75 \text{ aerogeneradors} \cdot 4 \text{ MW} = 300 \text{ MW}$. <br><br> 2. Energia màxima teòrica anual (si funcionés al 100% les 8760 hores de l'any): <br> $E_{max} = 300 \text{ MW} \cdot 8760 \text{ h} = 2,628,000 \text{ MWh} = 2628 \text{ GWh}$. <br><br> 3. Factor d'utilització ($f_u$): <br> $f_u = \frac{E_{real}}{E_{max}} = \frac{630}{2628} = 0.2397 \approx 24\%$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Potència total del parc ($P_{total}$): $75 \\text{ aerogeneradors} \\cdot 4 \\text{ MW} = 300 \\text{ MW}$. <br><br> 2. Energia màxima teòrica anual (si funcionés al 100% les 8760 hores de l'any): <br> $E_{max} = 300 \\text{ MW} \\cdot 8760 \\text{ h} = 2,628,000 \\text{ MWh} = 2628 \\text{ GWh}$. <br><br> 3. Factor d'utilització ($f_u$): <br> $f_u = \\frac{E_{real}}{E_{max}} = \\frac{630}{2628} = 0.2397 \approx 24\%$."
   },
   {
     id: 30,
@@ -585,7 +585,7 @@ const bancoDePreguntas = [
       "d) 9530 MWd/tU"
     ],
     correcta: "b",
-    feedback: "El Burn-up es calcula sobre la potència TÈRMICA: <br><br> 1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \frac{P_{elèctrica}}{\eta} = \frac{1050 \text{ MW}}{0.335} = 3134.33 \text{ MWt}$. <br><br> 2. Calculem l'energia tèrmica total generada ($E_t$): <br> $E_t = P_t \cdot t = 3134.33 \text{ MW} \cdot 590 \text{ dies} = 1,849,254 \text{ MWd}$. <br><br> 3. Dividim per la massa de combustible ($M_u$): <br> $Burn\text{-}up = \frac{1,849,254}{65 \text{ t}} = 28450 \text{ MWd/tU}$."
+    feedback: "El Burn-up es calcula sobre la potència TÈRMICA: <br><br> 1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \\frac{P_{elèctrica}}{\eta} = \\frac{1050 \\text{ MW}}{0.335} = 3134.33 \\text{ MWt}$. <br><br> 2. Calculem l'energia tèrmica total generada ($E_t$): <br> $E_t = P_t \\cdot t = 3134.33 \\text{ MW} \\cdot 590 \\text{ dies} = 1,849,254 \\text{ MWd}$. <br><br> 3. Dividim per la massa de combustible ($M_u$): <br> $Burn\\text{-}up = \\frac{1,849,254}{65 \\text{ t}} = 28450 \\text{ MWd/tU}$."
   },
   {
     id: 46,
@@ -598,7 +598,7 @@ const bancoDePreguntas = [
       "d) 700.8 GWh"
     ],
     correcta: "a",
-    feedback: "Pasos: <br><br> 1. Hores de l'any: $8760 \text{ h}$. <br><br> 2. Energia màxima possible: $80 \text{ MW} \cdot 8760 \text{ h} = 700,800 \text{ MWh}$. <br><br> 3. Energia real aplicada al factor: $700,800 \text{ MWh} \cdot 0.28 = 196,224 \text{ MWh} = 196.22 \text{ GWh}$."
+    feedback: "Pasos: <br><br> 1. Hores de l'any: $8760 \\text{ h}$. <br><br> 2. Energia màxima possible: $80 \\text{ MW} \\cdot 8760 \\text{ h} = 700,800 \\text{ MWh}$. <br><br> 3. Energia real aplicada al factor: $700,800 \\text{ MWh} \\cdot 0.28 = 196,224 \\text{ MWh} = 196.22 \\text{ GWh}$."
   },
   {
     id: 47,
@@ -611,7 +611,7 @@ const bancoDePreguntas = [
       "d) 42.5 m³/s"
     ],
     correcta: "b",
-    feedback: "Utilitzem la fórmula de la potència hidroelèctrica: $P = \rho \cdot g \cdot Q \cdot H \cdot \eta$. <br><br> 1. Dades: $P = 50 \cdot 10^6 \text{ W}$, $\rho = 1000$, $g = 9.81$, $H = 120$, $\eta = 0.88$. <br><br> 2. Aïllem $Q$: <br> $Q = \frac{P}{\rho \cdot g \cdot H \cdot \eta} = \frac{50,000,000}{1000 \cdot 9.81 \cdot 120 \cdot 0.88}$. <br><br> 3. Resultat: $Q = \frac{50,000,000}{1,035,936} = 48.26 \text{ m}^3\text{/s}$."
+    feedback: "Utilitzem la fórmula de la potència hidroelèctrica: $P = \rho \\cdot g \\cdot Q \\cdot H \\cdot \eta$. <br><br> 1. Dades: $P = 50 \\cdot 10^6 \\text{ W}$, $\rho = 1000$, $g = 9.81$, $H = 120$, $\eta = 0.88$. <br><br> 2. Aïllem $Q$: <br> $Q = \\frac{P}{\rho \\cdot g \\cdot H \\cdot \eta} = \\frac{50,000,000}{1000 \\cdot 9.81 \\cdot 120 \\cdot 0.88}$. <br><br> 3. Resultat: $Q = \\frac{50,000,000}{1,035,936} = 48.26 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 48,
@@ -676,7 +676,7 @@ const bancoDePreguntas = [
       "d) 1361 W/m2"
     ],
     correcta: "d",
-    feedback: "La constant solar és la densitat de potència que rebem del sol just abans de tocar l'atmosfèra. El valor estàndard és $1361 \text{ W/m}^2$ (o $1.36 \text{ kW/m}^2$)."
+    feedback: "La constant solar és la densitat de potència que rebem del sol just abans de tocar l'atmosfèra. El valor estàndard és $1361 \\text{ W/m}^2$ (o $1.36 \\text{ kW/m}^2$)."
   },
   {
     id: 53,
@@ -754,7 +754,7 @@ const bancoDePreguntas = [
       "d) Si aumenta el consumo de combustible para generar la misma energía"
     ],
     correcta: "b",
-    feedback: "El **Heat Rate** és la inversa del rendiment ($\eta$). <br><br>$Heat Rate = \frac{1}{\eta}$. <br>Per tant, qualsevol millora en el rendiment global de la planta (aprofitar millor el combustible) resulta directament en una disminució del Heat Rate (es necessiten menys kJ per cada kWh generat)."
+    feedback: "El **Heat Rate** és la inversa del rendiment ($\eta$). <br><br>$Heat Rate = \\frac{1}{\eta}$. <br>Per tant, qualsevol millora en el rendiment global de la planta (aprofitar millor el combustible) resulta directament en una disminució del Heat Rate (es necessiten menys kJ per cada kWh generat)."
   },
   {
     id: 59,
@@ -819,7 +819,7 @@ const bancoDePreguntas = [
       "d) 18900 MWd/tU"
     ],
     correcta: "b",
-    feedback: "1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \frac{P_{elèctrica}}{\eta} = \frac{1010 \text{ MW}}{0.336} = 3005.95 \text{ MWt}$. <br><br> 2. Energia tèrmica total: <br> $E_t = 3005.95 \text{ MWt} \cdot 425 \text{ dies} = 1,277,530 \text{ MWd}$. <br><br> 3. Burn-up: <br> $BU = \frac{1,277,530 \text{ MWd}}{63 \text{ t}} = 20278.25 \text{ MWd/tU}$."
+    feedback: "1. Calculem la Potència Tèrmica ($P_t$): <br> $P_t = \\frac{P_{elèctrica}}{\eta} = \\frac{1010 \\text{ MW}}{0.336} = 3005.95 \\text{ MWt}$. <br><br> 2. Energia tèrmica total: <br> $E_t = 3005.95 \\text{ MWt} \\cdot 425 \\text{ dies} = 1,277,530 \\text{ MWd}$. <br><br> 3. Burn-up: <br> $BU = \\frac{1,277,530 \\text{ MWd}}{63 \\text{ t}} = 20278.25 \\text{ MWd/tU}$."
   },
   {
     id: 64,
@@ -832,7 +832,7 @@ const bancoDePreguntas = [
       "d) 10 m3/s"
     ],
     correcta: "c",
-    feedback: "1. Energia tèrmica necessària per segon: <br> El Heat Rate ens diu que per cada kWh elèctric gastem 6210 kJ tèrmics. <br> $P_{termica} = P_{electrica} \cdot \frac{HeatRate}{3600} = 355 \text{ MW} \cdot \frac{6210}{3600} = 612.375 \text{ MWt}$. <br><br> 2. Cabal de gas ($Q$): <br> $Q = \frac{P_{termica}}{PCI} = \frac{612,375 \text{ kJ/s}}{35,600 \text{ kJ/m}^3} = 17.19 \text{ m}^3\text{/s}$."
+    feedback: "1. Energia tèrmica necessària per segon: <br> El Heat Rate ens diu que per cada kWh elèctric gastem 6210 kJ tèrmics. <br> $P_{termica} = P_{electrica} \\cdot \\frac{HeatRate}{3600} = 355 \\text{ MW} \\cdot \\frac{6210}{3600} = 612.375 \\text{ MWt}$. <br><br> 2. Cabal de gas ($Q$): <br> $Q = \\frac{P_{termica}}{PCI} = \\frac{612,375 \\text{ kJ/s}}{35,600 \\text{ kJ/m}^3} = 17.19 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 65,
@@ -845,7 +845,7 @@ const bancoDePreguntas = [
       "d) 450 kWh/día"
     ],
     correcta: "a",
-    feedback: "1. Potència total instal·lada (PSTC): <br> $220 \text{ mòduls} \cdot 375 \text{ W} = 82,500 \text{ W} = 82.5 \text{ kWp}$. <br><br> 2. Hores de sol pic (HSP): <br> Una irradiació de $4.8 \text{ kWh/m}^2$ equival a $4.8$ hores de sol pic ($1000 \text{ W/m}^2$). <br><br> 3. Energia: <br> $E = P_{pic} \cdot HSP = 82.5 \text{ kW} \cdot 4.8 \text{ h} = 396 \text{ kWh}$."
+    feedback: "1. Potència total instal·lada (PSTC): <br> $220 \\text{ mòduls} \\cdot 375 \\text{ W} = 82,500 \\text{ W} = 82.5 \\text{ kWp}$. <br><br> 2. Hores de sol pic (HSP): <br> Una irradiació de $4.8 \\text{ kWh/m}^2$ equival a $4.8$ hores de sol pic ($1000 \\text{ W/m}^2$). <br><br> 3. Energia: <br> $E = P_{pic} \\cdot HSP = 82.5 \\text{ kW} \\cdot 4.8 \\text{ h} = 396 \\text{ kWh}$."
   },
   {
     id: 66,
@@ -858,7 +858,7 @@ const bancoDePreguntas = [
       "d) 1250 MW"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica total generada: <br> $E_t = BU \cdot Masa = 9205 \text{ MWd/tU} \cdot 75 \text{ t} = 690,375 \text{ MWd}$. <br><br> 2. Potència tèrmica mitjana ($P_t$): <br> $P_t = \frac{690,375 \text{ MWd}}{213 \text{ dies}} = 3241.2 \text{ MWt}$. <br><br> 3. Potència elèctrica ($P_e$): <br> $P_e = P_t \cdot \eta = 3241.2 \cdot 0.34 = 1102 \text{ MW}$."
+    feedback: "1. Energia tèrmica total generada: <br> $E_t = BU \\cdot Masa = 9205 \\text{ MWd/tU} \\cdot 75 \\text{ t} = 690,375 \\text{ MWd}$. <br><br> 2. Potència tèrmica mitjana ($P_t$): <br> $P_t = \\frac{690,375 \\text{ MWd}}{213 \\text{ dies}} = 3241.2 \\text{ MWt}$. <br><br> 3. Potència elèctrica ($P_e$): <br> $P_e = P_t \\cdot \eta = 3241.2 \\cdot 0.34 = 1102 \\text{ MW}$."
   },
   {
     id: 67,
@@ -975,7 +975,7 @@ const bancoDePreguntas = [
       "d) Aumenta Isc drásticamente"
     ],
     correcta: "b",
-    feedback: "Els semiconductors són sensibles a la calor. En augmentar la temperatura, la tensió de circuit obert ($V_{oc}$) cau significativament, i com que $P = V \cdot I$, la potència total i el rendiment baixen."
+    feedback: "Els semiconductors són sensibles a la calor. En augmentar la temperatura, la tensió de circuit obert ($V_{oc}$) cau significativament, i com que $P = V \\cdot I$, la potència total i el rendiment baixen."
   },
   {
     id: 76,
@@ -1053,7 +1053,7 @@ const bancoDePreguntas = [
       "d) 9.8 m³/h"
     ],
     correcta: "b",
-    feedback: "Pasos per al càlcul: <br><br> 1. Convertim el Heat Rate a unitats SI (kJ/kWh): <br> $2205.1 \text{ kcal/kWh} \cdot 4.186 \text{ kJ/kcal} = 9230.5 \text{ kJ/kWh}$. <br><br> 2. Calculem l'energia tèrmica total necessària per hora: <br> $Q_{total} = 58 \text{ kW} \cdot 9230.5 \text{ kJ/kWh} = 535,369 \text{ kJ/h}$. <br><br> 3. Calculem el cabal dividint per el PCI: <br> $Cabal = \frac{535,369 \text{ kJ/h}}{34,900 \text{ kJ/m}^3} = 15.34 \text{ m}^3\text{/h}$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Convertim el Heat Rate a unitats SI (kJ/kWh): <br> $2205.1 \\text{ kcal/kWh} \\cdot 4.186 \\text{ kJ/kcal} = 9230.5 \\text{ kJ/kWh}$. <br><br> 2. Calculem l'energia tèrmica total necessària per hora: <br> $Q_{total} = 58 \\text{ kW} \\cdot 9230.5 \\text{ kJ/kWh} = 535,369 \\text{ kJ/h}$. <br><br> 3. Calculem el cabal dividint per el PCI: <br> $Cabal = \\frac{535,369 \\text{ kJ/h}}{34,900 \\text{ kJ/m}^3} = 15.34 \\text{ m}^3\\text{/h}$."
   },
   {
     id: 82,
@@ -1066,7 +1066,7 @@ const bancoDePreguntas = [
       "d) 31.8%"
     ],
     correcta: "c",
-    feedback: "Pasos per al càlcul: <br><br> 1. Energia elèctrica total generada ($E_e$): <br> $1050 \text{ MW} \cdot 280 \text{ dies} = 294,000 \text{ MWd}$. <br><br> 2. Energia tèrmica total consumida ($E_t$): <br> $12500 \text{ MWd/tU} \cdot 72 \text{ t} = 900,000 \text{ MWd}$. <br><br> 3. Rendiment ($\eta$): <br> $\eta = \frac{E_e}{E_t} = \frac{294,000}{900,000} = 0.326 \text{ (aprox. 33.3% segons dades de l'enunciat)}$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Energia elèctrica total generada ($E_e$): <br> $1050 \\text{ MW} \\cdot 280 \\text{ dies} = 294,000 \\text{ MWd}$. <br><br> 2. Energia tèrmica total consumida ($E_t$): <br> $12500 \\text{ MWd/tU} \\cdot 72 \\text{ t} = 900,000 \\text{ MWd}$. <br><br> 3. Rendiment ($\eta$): <br> $\eta = \\frac{E_e}{E_t} = \\frac{294,000}{900,000} = 0.326 \\text{ (aprox. 33.3% segons dades de l'enunciat)}$."
   },
   {
     id: 83,
@@ -1079,7 +1079,7 @@ const bancoDePreguntas = [
       "d) 0.8 kWh/día"
     ],
     correcta: "b",
-    feedback: "Una irradiació de $5 \text{ kWh/m}^2$ equival a 5 Hores de Sol Pic (HSP). <br><br> $Energia = P_{peak} \cdot HSP = 300 \text{ W} \cdot 5 \text{ h} = 1500 \text{ Wh} = 1.5 \text{ kWh}$."
+    feedback: "Una irradiació de $5 \\text{ kWh/m}^2$ equival a 5 Hores de Sol Pic (HSP). <br><br> $Energia = P_{peak} \\cdot HSP = 300 \\text{ W} \\cdot 5 \\text{ h} = 1500 \\text{ Wh} = 1.5 \\text{ kWh}$."
   },
   {
     id: 84,
@@ -1287,7 +1287,7 @@ const bancoDePreguntas = [
       "d) 1105.0 MW"
     ],
     correcta: "c",
-    feedback: "Pasos per al càlcul: <br><br> 1. Energia tèrmica total: $26553 \text{ MWd/tU} \cdot 65 \text{ t} = 1,725,945 \text{ MWd}$. <br><br> 2. Potència tèrmica mitjana: $1,725,945 \text{ MWd} / 590 \text{ dies} = 2925.33 \text{ MWt}$. <br><br> 3. Potència elèctrica mitjana: $2925.33 \text{ MWt} \cdot 0.335 = 980.48 \text{ MWe}$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Energia tèrmica total: $26553 \\text{ MWd/tU} \\cdot 65 \\text{ t} = 1,725,945 \\text{ MWd}$. <br><br> 2. Potència tèrmica mitjana: $1,725,945 \\text{ MWd} / 590 \\text{ dies} = 2925.33 \\text{ MWt}$. <br><br> 3. Potència elèctrica mitjana: $2925.33 \\text{ MWt} \\cdot 0.335 = 980.48 \\text{ MWe}$."
   },
   {
     id: 100,
@@ -1300,7 +1300,7 @@ const bancoDePreguntas = [
       "d) 25 kWh"
     ],
     correcta: "b",
-    feedback: "1. Potència total: $10 \cdot 400 \text{ W} = 4000 \text{ W} = 4 \text{ kWp}$. <br><br> 2. Energia: $4 \text{ kWp} \cdot 5.5 \text{ h} = 22 \text{ kWh}$."
+    feedback: "1. Potència total: $10 \\cdot 400 \\text{ W} = 4000 \\text{ W} = 4 \\text{ kWp}$. <br><br> 2. Energia: $4 \\text{ kWp} \\cdot 5.5 \\text{ h} = 22 \\text{ kWh}$."
   },
   {
     id: 101,
@@ -1313,7 +1313,7 @@ const bancoDePreguntas = [
       "d) 18.2 m3/s"
     ],
     correcta: "b",
-    feedback: "1. Potència tèrmica d'entrada: $P_t = \frac{400 \text{ MW}}{0.55} = 727.27 \text{ MW} = 727,270 \text{ kJ/s}$. <br><br> 2. Cabal ($Q$): $Q = \frac{727,270 \text{ kJ/s}}{36,000 \text{ kJ/m}^3} = 20.20 \text{ m}^3\text{/s}$."
+    feedback: "1. Potència tèrmica d'entrada: $P_t = \\frac{400 \\text{ MW}}{0.55} = 727.27 \\text{ MW} = 727,270 \\text{ kJ/s}$. <br><br> 2. Cabal ($Q$): $Q = \\frac{727,270 \\text{ kJ/s}}{36,000 \\text{ kJ/m}^3} = 20.20 \\text{ m}^3\\text{/s}$."
   },
 {
     id: 102,
@@ -1521,7 +1521,7 @@ const bancoDePreguntas = [
       "d) 9870.0 kJ/kWh"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica consumida per hora ($Q_t$): <br> $Q_t = 20.3 \text{ l/h} \cdot 52840 \text{ kJ/l} = 1,072,652 \text{ kJ/h}$. <br><br> 2. Com que la potència és de 100 kW, en una hora genera 100 kWh elèctrics. <br><br> 3. Heat Rate: <br> $HR = \frac{1,072,652 \text{ kJ}}{100 \text{ kWh}} = 10726.5 \text{ kJ/kWh}$."
+    feedback: "1. Energia tèrmica consumida per hora ($Q_t$): <br> $Q_t = 20.3 \\text{ l/h} \\cdot 52840 \\text{ kJ/l} = 1,072,652 \\text{ kJ/h}$. <br><br> 2. Com que la potència és de 100 kW, en una hora genera 100 kWh elèctrics. <br><br> 3. Heat Rate: <br> $HR = \\frac{1,072,652 \\text{ kJ}}{100 \\text{ kWh}} = 10726.5 \\text{ kJ/kWh}$."
   },
   {
     id: 118,
@@ -1534,7 +1534,7 @@ const bancoDePreguntas = [
       "d) 8450 MWd/tU"
     ],
     correcta: "b",
-    feedback: "1. Potència Tèrmica: $P_t = 1051 / 0.335 = 3137.31 \text{ MWt}$. <br><br> 2. Energia Tèrmica Total: $E_t = 3137.31 \text{ MWt} \cdot 207 \text{ dies} = 649,423 \text{ MWd}$. <br><br> 3. Burn-up: $BU = 649,423 / 72.1 = 9007.25 \text{ MWd/tU}$ (aproximat segons decimals)."
+    feedback: "1. Potència Tèrmica: $P_t = 1051 / 0.335 = 3137.31 \\text{ MWt}$. <br><br> 2. Energia Tèrmica Total: $E_t = 3137.31 \\text{ MWt} \\cdot 207 \\text{ dies} = 649,423 \\text{ MWd}$. <br><br> 3. Burn-up: $BU = 649,423 / 72.1 = 9007.25 \\text{ MWd/tU}$ (aproximat segons decimals)."
   },
   {
     id: 119,
@@ -1547,7 +1547,7 @@ const bancoDePreguntas = [
       "d) 17520 MWh"
     ],
     correcta: "b",
-    feedback: "1. Hores totals l'any: $8760 \text{ h}$. <br><br> 2. Energia màxima teòrica: $2 \text{ MW} \cdot 8760 \text{ h} = 17,520 \text{ MWh}$. <br><br> 3. Energia real (25%): $17,520 \cdot 0.25 = 4380 \text{ MWh}$."
+    feedback: "1. Hores totals l'any: $8760 \\text{ h}$. <br><br> 2. Energia màxima teòrica: $2 \\text{ MW} \\cdot 8760 \\text{ h} = 17,520 \\text{ MWh}$. <br><br> 3. Energia real (25%): $17,520 \\cdot 0.25 = 4380 \\text{ MWh}$."
   },
   {
     id: 120,
@@ -1820,7 +1820,7 @@ const bancoDePreguntas = [
       "d) 920 MW"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica total: $20,000 \cdot 50 = 1,000,000 \text{ MWd}$. <br> 2. Energia elèctrica: $1,000,000 \cdot 0.34 = 340,000 \text{ MWd}$. <br> 3. Potència mitjana: $340,000 / 445 \text{ dies} = 764.04 \text{ MW}$."
+    feedback: "1. Energia tèrmica total: $20,000 \\cdot 50 = 1,000,000 \\text{ MWd}$. <br> 2. Energia elèctrica: $1,000,000 \\cdot 0.34 = 340,000 \\text{ MWd}$. <br> 3. Potència mitjana: $340,000 / 445 \\text{ dies} = 764.04 \\text{ MW}$."
   },
   {
     id: 141,
@@ -1833,7 +1833,7 @@ const bancoDePreguntas = [
       "d) 95000 m3"
     ],
     correcta: "b",
-    feedback: "1. Energia útil per pujar aigua: $100 \text{ MWh} \cdot 0.88 = 88 \text{ MWh} = 3.168 \cdot 10^{11} \text{ J}$. <br> 2. Fórmula: $E = m \cdot g \cdot h$. <br> 3. $m = E / (g \cdot h) = 3.168 \cdot 10^{11} / (9.81 \cdot 363) = 89,000,000 \text{ kg} \approx 89,000 \text{ m}^3$ (aproximat segons gravetat)."
+    feedback: "1. Energia útil per pujar aigua: $100 \\text{ MWh} \\cdot 0.88 = 88 \\text{ MWh} = 3.168 \\cdot 10^{11} \\text{ J}$. <br> 2. Fórmula: $E = m \\cdot g \\cdot h$. <br> 3. $m = E / (g \\cdot h) = 3.168 \\cdot 10^{11} / (9.81 \\cdot 363) = 89,000,000 \\text{ kg} \approx 89,000 \\text{ m}^3$ (aproximat segons gravetat)."
   },
   {
     id: 142,
@@ -1846,7 +1846,7 @@ const bancoDePreguntas = [
       "d) 28000 kWh"
     ],
     correcta: "b",
-    feedback: "1. Convertim radiació a HSP: $9600 \text{ kJ/m}^2 / 3600 = 2.66 \text{ kWh/m}^2$. Com que $1 \text{ HSP} = 1 \text{ kWh/m}^2$, tenim $2.66 \text{ HSP}$. <br> 2. $E = P \cdot HSP = 15,000 \text{ kW} \cdot 2.66 \text{ h} = 40,000 \text{ kWh}$."
+    feedback: "1. Convertim radiació a HSP: $9600 \\text{ kJ/m}^2 / 3600 = 2.66 \\text{ kWh/m}^2$. Com que $1 \\text{ HSP} = 1 \\text{ kWh/m}^2$, tenim $2.66 \\text{ HSP}$. <br> 2. $E = P \\cdot HSP = 15,000 \\text{ kW} \\cdot 2.66 \\text{ h} = 40,000 \\text{ kWh}$."
   },
   {
     id: 143,
@@ -1859,7 +1859,7 @@ const bancoDePreguntas = [
       "d) 68000 m3/h"
     ],
     correcta: "b",
-    feedback: "1. Potència tèrmica: $400 / 0.55 = 727.27 \text{ MW} = 727,270 \text{ kJ/s}$. <br> 2. Cabal per segon: $727,270 / 36,000 = 20.2 \text{ m}^3\text{/s}$. <br> 3. Per hora: $20.2 \cdot 3600 = 72,727 \text{ m}^3\text{/h}$."
+    feedback: "1. Potència tèrmica: $400 / 0.55 = 727.27 \\text{ MW} = 727,270 \\text{ kJ/s}$. <br> 2. Cabal per segon: $727,270 / 36,000 = 20.2 \\text{ m}^3\\text{/s}$. <br> 3. Per hora: $20.2 \\cdot 3600 = 72,727 \\text{ m}^3\\text{/h}$."
   },
   {
     id: 144,
@@ -1872,7 +1872,7 @@ const bancoDePreguntas = [
       "d) 125000 kg/h"
     ],
     correcta: "b",
-    feedback: "$Emissions = Potència \cdot Intensitat = 500,000 \text{ kW} \cdot 0.95 \text{ kg/kWh} = 475,000 \text{ kg/h}$."
+    feedback: "$Emissions = Potència \\cdot Intensitat = 500,000 \\text{ kW} \\cdot 0.95 \\text{ kg/kWh} = 475,000 \\text{ kg/h}$."
   },
   {
     id: 145,
@@ -2080,7 +2080,7 @@ const bancoDePreguntas = [
       "d) 1500 kg/h"
     ],
     correcta: "b",
-    feedback: "1. Massa de sofre: $75,000 \text{ kg/h} \cdot 0.015 = 1125 \text{ kg de S/h}$. <br> 2. Reacció $S + O_2 \rightarrow SO_2$. Com que el pes atòmic de S (32) i $O_2$ (32) és igual, la massa de $SO_2$ és el doble de la de S: $1125 \cdot 2 = 2250 \text{ kg } SO_2\text{/h}$."
+    feedback: "1. Massa de sofre: $75,000 \\text{ kg/h} \\cdot 0.015 = 1125 \\text{ kg de S/h}$. <br> 2. Reacció $S + O_2 \rightarrow SO_2$. Com que el pes atòmic de S (32) i $O_2$ (32) és igual, la massa de $SO_2$ és el doble de la de S: $1125 \\cdot 2 = 2250 \\text{ kg } SO_2\\text{/h}$."
   },
   {
     id: 161,
@@ -2093,7 +2093,7 @@ const bancoDePreguntas = [
       "d) 120 kW"
     ],
     correcta: "b",
-    feedback: "1. Potència total nominal: $1200 \cdot 150 \text{ W} = 180,000 \text{ W} = 180 \text{ kW}$. <br> 2. Correcció per irradiància: $180 \text{ kW} \cdot (400 / 1000) = 180 \cdot 0.4 = 72 \text{ kW}$."
+    feedback: "1. Potència total nominal: $1200 \\cdot 150 \\text{ W} = 180,000 \\text{ W} = 180 \\text{ kW}$. <br> 2. Correcció per irradiància: $180 \\text{ kW} \\cdot (400 / 1000) = 180 \\cdot 0.4 = 72 \\text{ kW}$."
   },
   {
     id: 162,
@@ -2106,7 +2106,7 @@ const bancoDePreguntas = [
       "d) 25.4 m3"
     ],
     correcta: "b",
-    feedback: "1. Oxigen necessari: $1 \text{ m}^3 \text{ butà} \cdot 6.5 = 6.5 \text{ m}^3 \text{ d'oxigen}$. <br> 2. Com que l'aire només té un 21% d'oxigen: $V_{aire} = 6.5 / 0.21 = 30.95 \text{ m}^3 \text{ d'aire}$."
+    feedback: "1. Oxigen necessari: $1 \\text{ m}^3 \\text{ butà} \\cdot 6.5 = 6.5 \\text{ m}^3 \\text{ d'oxigen}$. <br> 2. Com que l'aire només té un 21% d'oxigen: $V_{aire} = 6.5 / 0.21 = 30.95 \\text{ m}^3 \\text{ d'aire}$."
   },
   {
     id: 163,
@@ -2119,7 +2119,7 @@ const bancoDePreguntas = [
       "d) 1000 GWh"
     ],
     correcta: "b",
-    feedback: "1. Hores l'any: $8760 \text{ h}$. <br> 2. Energia màxima: $1000 \text{ MW} \cdot 8760 \text{ h} = 8,760,000 \text{ MWh} = 8760 \text{ GWh}$. <br> 3. Factor de càrrega: $8760 \cdot 0.90 = 7884 \text{ GWh}$."
+    feedback: "1. Hores l'any: $8760 \\text{ h}$. <br> 2. Energia màxima: $1000 \\text{ MW} \\cdot 8760 \\text{ h} = 8,760,000 \\text{ MWh} = 8760 \\text{ GWh}$. <br> 3. Factor de càrrega: $8760 \\cdot 0.90 = 7884 \\text{ GWh}$."
   },
   {
     id: 164,
@@ -2132,7 +2132,7 @@ const bancoDePreguntas = [
       "d) 92 m"
     ],
     correcta: "b",
-    feedback: "1. Fórmula: $P = \eta \cdot \rho \cdot g \cdot Q \cdot h$. <br> 2. $15,000,000 = 0.9 \cdot 1000 \cdot 9.81 \cdot 20 \cdot h$. <br> 3. $h = 15,000,000 / 176,580 = 84.95 \text{ m} \approx 85 \text{ m}$."
+    feedback: "1. Fórmula: $P = \eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $15,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot 20 \\cdot h$. <br> 3. $h = 15,000,000 / 176,580 = 84.95 \\text{ m} \approx 85 \\text{ m}$."
   },
   {
     id: 165,
@@ -2366,7 +2366,7 @@ const bancoDePreguntas = [
       "d) 195 t/h"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica total: $550,000 \text{ kW} \cdot 9683 \text{ kJ/kWh} = 5.325 \cdot 10^{9} \text{ kJ/h}$. <br> 2. PCI en kJ: $5491 \text{ kcal/kg} \cdot 4.186 = 22,985 \text{ kJ/kg}$. <br> 3. Consum: $5.325 \cdot 10^{9} / 22,985 = 231,700 \text{ kg/h} \approx 232 \text{ t/h}$."
+    feedback: "1. Energia tèrmica total: $550,000 \\text{ kW} \\cdot 9683 \\text{ kJ/kWh} = 5.325 \\cdot 10^{9} \\text{ kJ/h}$. <br> 2. PCI en kJ: $5491 \\text{ kcal/kg} \\cdot 4.186 = 22,985 \\text{ kJ/kg}$. <br> 3. Consum: $5.325 \\cdot 10^{9} / 22,985 = 231,700 \\text{ kg/h} \approx 232 \\text{ t/h}$."
   },
   {
     id: 183,
@@ -2379,7 +2379,7 @@ const bancoDePreguntas = [
       "d) 7884 GWh"
     ],
     correcta: "b",
-    feedback: "$1000 \text{ MW} \cdot 8760 \text{ h/any} \cdot 0.85 = 7446 \text{ GWh/any}$."
+    feedback: "$1000 \\text{ MW} \\cdot 8760 \\text{ h/any} \\cdot 0.85 = 7446 \\text{ GWh/any}$."
   },
   {
     id: 184,
@@ -2392,7 +2392,7 @@ const bancoDePreguntas = [
       "d) 200 W"
     ],
     correcta: "b",
-    feedback: "$Potència = Àrea \cdot Irradiància \cdot Eficiència = 1.6 \cdot 800 \cdot 0.15 = 192 \text{ W}$."
+    feedback: "$Potència = Àrea \\cdot Irradiància \\cdot Eficiència = 1.6 \\cdot 800 \\cdot 0.15 = 192 \\text{ W}$."
   },
   {
     id: 185,
@@ -2405,7 +2405,7 @@ const bancoDePreguntas = [
       "d) 20,1 m3/s"
     ],
     correcta: "b",
-    feedback: "1. Fórmula: $P = \eta \cdot \rho \cdot g \cdot Q \cdot h$. <br> 2. $10,000,000 = 0.9 \cdot 1000 \cdot 9.81 \cdot Q \cdot 50$. <br> 3. $Q = 10,000,000 / 441,450 = 22.65 \text{ m}^3\text{/s}$."
+    feedback: "1. Fórmula: $P = \eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $10,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot Q \\cdot 50$. <br> 3. $Q = 10,000,000 / 441,450 = 22.65 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 186,
@@ -2613,7 +2613,7 @@ const bancoDePreguntas = [
       "d) 1450 kcal/kWh"
     ],
     correcta: "b",
-    feedback: "1. Calor aportat: $15 \text{ m}^3\text{/s} \cdot 9000 \text{ kcal/m}^3 \cdot 3600 \text{ s/h} = 486,000,000 \text{ kcal/h}$. <br> 2. Producció: $300,000 \text{ kW}$. <br> 3. Heat Rate: $486,000,000 / 300,000 = 1620 \text{ kcal/kWh}$."
+    feedback: "1. Calor aportat: $15 \\text{ m}^3\\text{/s} \\cdot 9000 \\text{ kcal/m}^3 \\cdot 3600 \\text{ s/h} = 486,000,000 \\text{ kcal/h}$. <br> 2. Producció: $300,000 \\text{ kW}$. <br> 3. Heat Rate: $486,000,000 / 300,000 = 1620 \\text{ kcal/kWh}$."
   },
   {
     id: 202,
@@ -2626,7 +2626,7 @@ const bancoDePreguntas = [
       "d) 115,400 t/año"
     ],
     correcta: "b",
-    feedback: "1. Energia elèctrica anual: $225,000 \text{ kW} \cdot 8760 \text{ h} \cdot 0.20 = 3.942 \cdot 10^{8} \text{ kWh}$. <br> 2. Energia tèrmica necessària: $3.942 \cdot 10^{8} / 0.38 = 1.037 \cdot 10^{9} \text{ kWh}$. <br> 3. En kcal ($1 \text{ kWh} = 860 \text{ kcal}$): $8.92 \cdot 10^{11} \text{ kcal}$. <br> 4. Massa: $8.92 \cdot 10^{11} / 5100 = 174,900,000 \text{ kg} \approx 182,318 \text{ t}$ (segons decimals usats)."
+    feedback: "1. Energia elèctrica anual: $225,000 \\text{ kW} \\cdot 8760 \\text{ h} \\cdot 0.20 = 3.942 \\cdot 10^{8} \\text{ kWh}$. <br> 2. Energia tèrmica necessària: $3.942 \\cdot 10^{8} / 0.38 = 1.037 \\cdot 10^{9} \\text{ kWh}$. <br> 3. En kcal ($1 \\text{ kWh} = 860 \\text{ kcal}$): $8.92 \\cdot 10^{11} \\text{ kcal}$. <br> 4. Massa: $8.92 \\cdot 10^{11} / 5100 = 174,900,000 \\text{ kg} \approx 182,318 \\text{ t}$ (segons decimals usats)."
   },
   {
     id: 203,
@@ -2782,7 +2782,7 @@ const bancoDePreguntas = [
       "d) El PCI es solo para gases"
     ],
     correcta: "b",
-    feedback: "$PCS = PCI + \text{Calor latente del agua}$. Com que en la pràctica el vapor no es condensa a la caldera per evitar corrosió, s'utilitza el PCI per als càlculs."
+    feedback: "$PCS = PCI + \\text{Calor latente del agua}$. Com que en la pràctica el vapor no es condensa a la caldera per evitar corrosió, s'utilitza el PCI per als càlculs."
   },
   {
     id: 215,
@@ -2795,7 +2795,7 @@ const bancoDePreguntas = [
       "d) 0.08"
     ],
     correcta: "b",
-    feedback: "Els rendiments en sèrie es multipliquen: $0.9 \cdot 0.98 = 0.882$ (o 88,2%)."
+    feedback: "Els rendiments en sèrie es multipliquen: $0.9 \\cdot 0.98 = 0.882$ (o 88,2%)."
   },
   {
     id: 216,
@@ -2847,7 +2847,7 @@ const bancoDePreguntas = [
       "d) 0,185 m3/kWh"
     ],
     correcta: "b",
-    feedback: "1. Energia útil per kWh: $860 \text{ kcal}$. <br> 2. Energia tèrmica necessària: $860 / 0.34 = 2529,4 \text{ kcal}$. <br> 3. Consum: $2529,4 / 9800 \text{ kcal/m}^3 = 0.258 \text{ m}^3\text{/kWh}$."
+    feedback: "1. Energia útil per kWh: $860 \\text{ kcal}$. <br> 2. Energia tèrmica necessària: $860 / 0.34 = 2529,4 \\text{ kcal}$. <br> 3. Consum: $2529,4 / 9800 \\text{ kcal/m}^3 = 0.258 \\text{ m}^3\\text{/kWh}$."
   },
   {
     id: 220,
@@ -2860,7 +2860,7 @@ const bancoDePreguntas = [
       "d) 60,0 MW"
     ],
     correcta: "b",
-    feedback: "1. Treball net específic: $600 - 350 = 250 \text{ kJ/kg}$. <br> 2. Potència mecànica: $250 \text{ kJ/kg} \cdot 100 \text{ kg/s} = 25,000 \text{ kW} = 25 \text{ MW}$. <br> 3. Potència elèctrica: $25 \text{ MW} \cdot 0.98 = 24.5 \text{ MW}$."
+    feedback: "1. Treball net específic: $600 - 350 = 250 \\text{ kJ/kg}$. <br> 2. Potència mecànica: $250 \\text{ kJ/kg} \\cdot 100 \\text{ kg/s} = 25,000 \\text{ kW} = 25 \\text{ MW}$. <br> 3. Potència elèctrica: $25 \\text{ MW} \\cdot 0.98 = 24.5 \\text{ MW}$."
   },
   {
     id: 221,
@@ -2873,7 +2873,7 @@ const bancoDePreguntas = [
       "d) 7540,2 kJ/kWh"
     ],
     correcta: "a",
-    feedback: "El Heat Rate és la inversa del rendiment expressada en unitats d'energia per unitat elèctrica: $3600 \text{ kJ/kWh} / 0.42 = 8571.4 \text{ kJ/kWh}$."
+    feedback: "El Heat Rate és la inversa del rendiment expressada en unitats d'energia per unitat elèctrica: $3600 \\text{ kJ/kWh} / 0.42 = 8571.4 \\text{ kJ/kWh}$."
   },
   {
     id: 222,
@@ -3003,7 +3003,7 @@ const bancoDePreguntas = [
       "d) La entropía generada"
     ],
     correcta: "b",
-    feedback: "L'àrea dins del cicle en un diagrama Temperatura-entropia representa la integral de $T \cdot ds$, que equival al treball net (diferència entre calor entrat i sortit)."
+    feedback: "L'àrea dins del cicle en un diagrama Temperatura-entropia representa la integral de $T \\cdot ds$, que equival al treball net (diferència entre calor entrat i sortit)."
   },
   {
     id: 232,
@@ -3081,7 +3081,7 @@ const bancoDePreguntas = [
       "d) 980,2 horas"
     ],
     correcta: "b",
-    feedback: "1. Massa de GNL: $130,000 \cdot 445 = 57,850,000 \text{ kg}$. <br> 2. Cabal màssic gas: $18 \text{ m}^3\text{/s} \cdot 0.737 = 13.266 \text{ kg/s}$. <br> 3. Temps: $57,850,000 / 13.266 = 4,360,771 \text{ s} = 1211.3 \text{ h}$."
+    feedback: "1. Massa de GNL: $130,000 \\cdot 445 = 57,850,000 \\text{ kg}$. <br> 2. Cabal màssic gas: $18 \\text{ m}^3\\text{/s} \\cdot 0.737 = 13.266 \\text{ kg/s}$. <br> 3. Temps: $57,850,000 / 13.266 = 4,360,771 \\text{ s} = 1211.3 \\text{ h}$."
   },
   {
     id: 238,
@@ -3094,7 +3094,7 @@ const bancoDePreguntas = [
       "d) 91%"
     ],
     correcta: "b",
-    feedback: "1. Energia útil: $280,000 \text{ kg/h} \cdot 800 \text{ kcal/kg} = 2.24 \cdot 10^{8} \text{ kcal/h}$. <br> 2. Energia aportada: $45,000 \text{ kg/h} \cdot 6000 \text{ kcal/kg} = 2.7 \cdot 10^{8} \text{ kcal/h}$. <br> 3. Rendiment: $2.24 / 2.7 = 0.829 \approx 83\\%$."
+    feedback: "1. Energia útil: $280,000 \\text{ kg/h} \\cdot 800 \\text{ kcal/kg} = 2.24 \\cdot 10^{8} \\text{ kcal/h}$. <br> 2. Energia aportada: $45,000 \\text{ kg/h} \\cdot 6000 \\text{ kcal/kg} = 2.7 \\cdot 10^{8} \\text{ kcal/h}$. <br> 3. Rendiment: $2.24 / 2.7 = 0.829 \approx 83\\%$."
   },
   {
     id: 239,
@@ -3263,7 +3263,7 @@ const bancoDePreguntas = [
       "d) 8,2%"
     ],
     correcta: "b",
-    feedback: "Els rendiments de components en sèrie es multipliquen: $0.90 \cdot 0.98 = 0.882$ (un 88,2%)."
+    feedback: "Els rendiments de components en sèrie es multipliquen: $0.90 \\cdot 0.98 = 0.882$ (un 88,2%)."
   },
   {
     id: 252,
@@ -3315,7 +3315,7 @@ const bancoDePreguntas = [
       "d) 8,9 m3/s"
     ],
     correcta: "b",
-    feedback: "1. Potència tèrmica: $220 \text{ MW} / 0.55 = 400 \text{ MW} = 400,000 \text{ kJ/s}$. <br> 2. Cabal: $400,000 / 36000 \text{ kJ/m}^3 = 11.11 \text{ m}^3\text{/s}$."
+    feedback: "1. Potència tèrmica: $220 \\text{ MW} / 0.55 = 400 \\text{ MW} = 400,000 \\text{ kJ/s}$. <br> 2. Cabal: $400,000 / 36000 \\text{ kJ/m}^3 = 11.11 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 256,
@@ -3328,7 +3328,7 @@ const bancoDePreguntas = [
       "d) 42%"
     ],
     correcta: "b",
-    feedback: "1. Calor anual: $2.048 \cdot 10^8 \text{ kg} \cdot 6740 \text{ kcal/kg} = 1.38 \cdot 10^{12} \text{ kcal/any}$. <br> 2. Energia elèctrica: $1.38 \cdot 10^{12} \cdot 0.382 = 5.27 \cdot 10^{11} \text{ kcal}$. <br> 3. En kWh: $5.27 \cdot 10^{11} / 860 = 6.13 \cdot 10^8 \text{ kWh/any}$. <br> 4. Max teòric: $250,000 \text{ kW} \cdot 8760 \text{ h} = 2.19 \cdot 10^9 \text{ kWh}$. <br> 5. Factor: $6.13 \cdot 10^8 / 2.19 \cdot 10^9 = 0.28$ (28%)."
+    feedback: "1. Calor anual: $2.048 \\cdot 10^8 \\text{ kg} \\cdot 6740 \\text{ kcal/kg} = 1.38 \\cdot 10^{12} \\text{ kcal/any}$. <br> 2. Energia elèctrica: $1.38 \\cdot 10^{12} \\cdot 0.382 = 5.27 \\cdot 10^{11} \\text{ kcal}$. <br> 3. En kWh: $5.27 \\cdot 10^{11} / 860 = 6.13 \\cdot 10^8 \\text{ kWh/any}$. <br> 4. Max teòric: $250,000 \\text{ kW} \\cdot 8760 \\text{ h} = 2.19 \\cdot 10^9 \\text{ kWh}$. <br> 5. Factor: $6.13 \\cdot 10^8 / 2.19 \\cdot 10^9 = 0.28$ (28%)."
   },
   {
     id: 257,
@@ -3341,7 +3341,7 @@ const bancoDePreguntas = [
       "d) 12,5 días"
     ],
     correcta: "b",
-    feedback: "1. Volum gas: $180,000 \cdot 600 = 108,000,000 \text{ m}^3$. <br> 2. Energia total: $1.08 \cdot 10^8 \cdot 36000 = 3.888 \cdot 10^{12} \text{ kJ}$. <br> 3. Consum diari: $(400,000 \text{ kJ/s} / 0.56) \cdot 86400 \text{ s/dia} = 6.17 \cdot 10^{10} \text{ kJ/dia}$. <br> 4. Dies: $3.888 \cdot 10^{12} / 6.17 \cdot 10^{10} = 62.9$ (aproximat segons arrodoniments, valor pròxim 58,3 segons taules d'examen)."
+    feedback: "1. Volum gas: $180,000 \\cdot 600 = 108,000,000 \\text{ m}^3$. <br> 2. Energia total: $1.08 \\cdot 10^8 \\cdot 36000 = 3.888 \\cdot 10^{12} \\text{ kJ}$. <br> 3. Consum diari: $(400,000 \\text{ kJ/s} / 0.56) \\cdot 86400 \\text{ s/dia} = 6.17 \\cdot 10^{10} \\text{ kJ/dia}$. <br> 4. Dies: $3.888 \\cdot 10^{12} / 6.17 \\cdot 10^{10} = 62.9$ (aproximat segons arrodoniments, valor pròxim 58,3 segons taules d'examen)."
   },
   {
     id: 258,
@@ -3510,7 +3510,7 @@ const bancoDePreguntas = [
       "d) 2,0"
     ],
     correcta: "c",
-    feedback: "El coeficient $\\lambda$ es calcula com $1 + \text{excés}$. Per tant, $1 + 0.20 = 1.2$. Un $\\lambda = 1$ seria la combustió estequiomètrica exacta."
+    feedback: "El coeficient $\\lambda$ es calcula com $1 + \\text{excés}$. Per tant, $1 + 0.20 = 1.2$. Un $\\lambda = 1$ seria la combustió estequiomètrica exacta."
   },
   {
     id: 271,
@@ -3549,7 +3549,7 @@ const bancoDePreguntas = [
       "d) 8,5 m3/s"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica: $151,000 \text{ kW} \cdot 9475 \text{ kJ/kWh} = 1,430,725 \text{ kJ/s}$. <br> 2. PCI en kJ: $10120 \text{ kcal/m}^3 \cdot 4.186 = 42362 \text{ kJ/m}^3$. <br> 3. Cabal: $1,430,725 / 42362 = 33.7 \text{ m}^3\text{/s}$ (Nota: Revisa unitats, el valor típic d'examen per a aquestes dades és 9,4 m3/s ajustant rendiments)."
+    feedback: "1. Energia tèrmica: $151,000 \\text{ kW} \\cdot 9475 \\text{ kJ/kWh} = 1,430,725 \\text{ kJ/s}$. <br> 2. PCI en kJ: $10120 \\text{ kcal/m}^3 \\cdot 4.186 = 42362 \\text{ kJ/m}^3$. <br> 3. Cabal: $1,430,725 / 42362 = 33.7 \\text{ m}^3\\text{/s}$ (Nota: Revisa unitats, el valor típic d'examen per a aquestes dades és 9,4 m3/s ajustant rendiments)."
   },
   {
     id: 274,
@@ -3575,7 +3575,7 @@ const bancoDePreguntas = [
       "d) 1315,8 MW"
     ],
     correcta: "b",
-    feedback: "1. Potència tèrmica total: $500 / 0.38 = 1315.8 \text{ MW}$. <br> 2. Calor perdut: $1315.8 - 500 = 815.8 \text{ MW}$."
+    feedback: "1. Potència tèrmica total: $500 / 0.38 = 1315.8 \\text{ MW}$. <br> 2. Calor perdut: $1315.8 - 500 = 815.8 \\text{ MW}$."
   },
   {
     id: 276,
@@ -3783,7 +3783,7 @@ const bancoDePreguntas = [
       "d) 62,1%"
     ],
     correcta: "c",
-    feedback: "1. Potència tèrmica aportada ($Q_{in}$): $18.5 \text{ m}^3\text{/s} \cdot 38000 \text{ kJ/m}^3 = 703,000 \text{ kJ/s} = 703 \text{ MW}$. <br> 2. Eficiència: $400 / 703 = 0.5689 \approx 56.9\\%$."
+    feedback: "1. Potència tèrmica aportada ($Q_{in}$): $18.5 \\text{ m}^3\\text{/s} \\cdot 38000 \\text{ kJ/m}^3 = 703,000 \\text{ kJ/s} = 703 \\text{ MW}$. <br> 2. Eficiència: $400 / 703 = 0.5689 \approx 56.9\\%$."
   },
   {
     id: 292,
@@ -3796,7 +3796,7 @@ const bancoDePreguntas = [
       "d) 42 kg/s"
     ],
     correcta: "b",
-    feedback: "1. Aire estequiomètric: $2 \text{ kg/s} \cdot 15 = 30 \text{ kg/s}$. <br> 2. Amb excés del 20%: $30 \cdot 1.20 = 36 \text{ kg/s}$ d'aire real."
+    feedback: "1. Aire estequiomètric: $2 \\text{ kg/s} \\cdot 15 = 30 \\text{ kg/s}$. <br> 2. Amb excés del 20%: $30 \\cdot 1.20 = 36 \\text{ kg/s}$ d'aire real."
   },
   {
     id: 293,
@@ -3809,7 +3809,7 @@ const bancoDePreguntas = [
       "d) 44 m3/s"
     ],
     correcta: "b",
-    feedback: "Per la reacció $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$, 1 mol de metà produeix 1 mol de $CO_2$. Segons la llei d'Avogadro, a mateixa P i T, els cabals volumètrics són iguals: $10 \text{ m}^3\text{/s}$."
+    feedback: "Per la reacció $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$, 1 mol de metà produeix 1 mol de $CO_2$. Segons la llei d'Avogadro, a mateixa P i T, els cabals volumètrics són iguals: $10 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 294,
@@ -3991,7 +3991,7 @@ const bancoDePreguntas = [
       "d) 0,892"
     ],
     correcta: "d",
-    feedback: "El rendiment total d'un sistema en sèrie és el producte dels rendiments individuals: $0.92 \cdot 0.97 = 0.8924$."
+    feedback: "El rendiment total d'un sistema en sèrie és el producte dels rendiments individuals: $0.92 \\cdot 0.97 = 0.8924$."
   },
   {
     id: 308,
@@ -4004,7 +4004,7 @@ const bancoDePreguntas = [
       "d) 32 m3/s"
     ],
     correcta: "b",
-    feedback: "Com que la reacció és 1:1 ($1 \text{ CH}_4 \rightarrow 1 \text{ CO}_2$), el volum de gas emès és el mateix que el de combustible consumit."
+    feedback: "Com que la reacció és 1:1 ($1 \\\text{ CH}_4 \rightarrow 1 \\\text{ CO}_2$), el volum de gas emès és el mateix que el de combustible consumit."
   },
   {
     id: 309,
@@ -4017,7 +4017,7 @@ const bancoDePreguntas = [
       "d) 95,2 t/h"
     ],
     correcta: "b",
-    feedback: "1. Calor necessari: $222,000 \text{ kW} \cdot 2280 \text{ kcal/kWh} = 506,160,000 \text{ kcal/h}$. <br> 2. Massa: $506,160,000 / 4250 = 119,096 \text{ kg/h} \approx 119.1 \text{ t/h}$."
+    feedback: "1. Calor necessari: $222,000 \\text{ kW} \\cdot 2280 \\text{ kcal/kWh} = 506,160,000 \\text{ kcal/h}$. <br> 2. Massa: $506,160,000 / 4250 = 119,096 \\text{ kg/h} \approx 119.1 \\text{ t/h}$."
   },
   {
     id: 310,
@@ -4030,6 +4030,6 @@ const bancoDePreguntas = [
       "d) 65,0%"
     ],
     correcta: "b",
-    feedback: "1. Potència tèrmica ($Q_{in}$): $10 \text{ m}^3\text{/s} \cdot 35000 \text{ kJ/m}^3 = 350,000 \text{ kJ/s} = 350 \text{ MW}$. <br> 2. Rendiment: $180 / 350 = 0.5142 \approx 51.4\\%$."
+    feedback: "1. Potència tèrmica ($Q_{in}$): $10 \\text{ m}^3\\text{/s} \\cdot 35000 \\text{ kJ/m}^3 = 350,000 \\text{ kJ/s} = 350 \\text{ MW}$. <br> 2. Rendiment: $180 / 350 = 0.5142 \approx 51.4\\%$."
   }
 ];
