@@ -349,7 +349,7 @@ const bancoDePreguntas = [
       "d) 5,1 m³/h"
     ],
     correcta: "b",
-    feedback: "El gas natural és majoritàriament metà ($CH_4$). La reacció de combustió ideal és: <br>$CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$. <br><br>Per l'estequiometria de la reacció, per cada mol (o volum en condicions iguals) de metà cremat, es genera exactament un mol (o volum) de $CO_2$. Per tant, 14 $m^3/h$ de gas produeixen aproximadament 14 $m^3/h$ de $CO_2$."
+    feedback: "El gas natural és majoritàriament metà ($CH_4$). La reacció de combustió ideal és: <br>$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$. <br><br>Per l'estequiometria de la reacció, per cada mol (o volum en condicions iguals) de metà cremat, es genera exactament un mol (o volum) de $CO_2$. Per tant, 14 $m^3/h$ de gas produeixen aproximadament 14 $m^3/h$ de $CO_2$."
   },
   {
     id: 28,
@@ -377,7 +377,7 @@ const bancoDePreguntas = [
       "d) 40%"
     ],
     correcta: "c",
-    feedback: "Pasos per al càlcul: <br><br> 1. Potència total del parc ($P_{total}$): $75 \\text{ aerogeneradors} \\cdot 4 \\text{ MW} = 300 \\text{ MW}$. <br><br> 2. Energia màxima teòrica anual (si funcionés al 100% les 8760 hores de l'any): <br> $E_{max} = 300 \\text{ MW} \\cdot 8760 \\text{ h} = 2,628,000 \\text{ MWh} = 2628 \\text{ GWh}$. <br><br> 3. Factor d'utilització ($f_u$): <br> $f_u = \\frac{E_{real}}{E_{max}} = \\frac{630}{2628} = 0.2397 \approx 24\%$."
+    feedback: "Pasos per al càlcul: <br><br> 1. Potència total del parc ($P_{total}$): $75 \\text{ aerogeneradors} \\cdot 4 \\text{ MW} = 300 \\text{ MW}$. <br><br> 2. Energia màxima teòrica anual (si funcionés al 100% les 8760 hores de l'any): <br> $E_{max} = 300 \\text{ MW} \\cdot 8760 \\text{ h} = 2,628,000 \\text{ MWh} = 2628 \\text{ GWh}$. <br><br> 3. Factor d'utilització ($f_u$): <br> $f_u = \\frac{E_{real}}{E_{max}} = \\frac{630}{2628} = 0.2397 \\approx 24\%$."
   },
   {
     id: 30,
@@ -1833,7 +1833,7 @@ const bancoDePreguntas = [
       "d) 95000 m3"
     ],
     correcta: "b",
-    feedback: "1. Energia útil per pujar aigua: $100 \\text{ MWh} \\cdot 0.88 = 88 \\text{ MWh} = 3.168 \\cdot 10^{11} \\text{ J}$. <br> 2. Fórmula: $E = m \\cdot g \\cdot h$. <br> 3. $m = E / (g \\cdot h) = 3.168 \\cdot 10^{11} / (9.81 \\cdot 363) = 89,000,000 \\text{ kg} \approx 89,000 \\text{ m}^3$ (aproximat segons gravetat)."
+    feedback: "1. Energia útil per pujar aigua: $100 \\text{ MWh} \\cdot 0.88 = 88 \\text{ MWh} = 3.168 \\cdot 10^{11} \\text{ J}$. <br> 2. Fórmula: $E = m \\cdot g \\cdot h$. <br> 3. $m = E / (g \\cdot h) = 3.168 \\cdot 10^{11} / (9.81 \\cdot 363) = 89,000,000 \\text{ kg} \\approx 89,000 \\text{ m}^3$ (aproximat segons gravetat)."
   },
   {
     id: 142,
@@ -2080,7 +2080,7 @@ const bancoDePreguntas = [
       "d) 1500 kg/h"
     ],
     correcta: "b",
-    feedback: "1. Massa de sofre: $75,000 \\text{ kg/h} \\cdot 0.015 = 1125 \\text{ kg de S/h}$. <br> 2. Reacció $S + O_2 \rightarrow SO_2$. Com que el pes atòmic de S (32) i $O_2$ (32) és igual, la massa de $SO_2$ és el doble de la de S: $1125 \\cdot 2 = 2250 \\text{ kg } SO_2\\text{/h}$."
+    feedback: "1. Massa de sofre: $75,000 \\text{ kg/h} \\cdot 0.015 = 1125 \\text{ kg de S/h}$. <br> 2. Reacció $S + O_2 \\rightarrow SO_2$. Com que el pes atòmic de S (32) i $O_2$ (32) és igual, la massa de $SO_2$ és el doble de la de S: $1125 \\cdot 2 = 2250 \\text{ kg } SO_2\\text{/h}$."
   },
   {
     id: 161,
@@ -2132,7 +2132,7 @@ const bancoDePreguntas = [
       "d) 92 m"
     ],
     correcta: "b",
-    feedback: "1. Fórmula: $P = \\eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $15,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot 20 \\cdot h$. <br> 3. $h = 15,000,000 / 176,580 = 84.95 \\text{ m} \approx 85 \\text{ m}$."
+    feedback: "1. Fórmula: $P = \\eta \\cdot \rho \\cdot g \\cdot Q \\cdot h$. <br> 2. $15,000,000 = 0.9 \\cdot 1000 \\cdot 9.81 \\cdot 20 \\cdot h$. <br> 3. $h = 15,000,000 / 176,580 = 84.95 \\text{ m} \\approx 85 \\text{ m}$."
   },
   {
     id: 165,
@@ -2366,7 +2366,7 @@ const bancoDePreguntas = [
       "d) 195 t/h"
     ],
     correcta: "b",
-    feedback: "1. Energia tèrmica total: $550,000 \\text{ kW} \\cdot 9683 \\text{ kJ/kWh} = 5.325 \\cdot 10^{9} \\text{ kJ/h}$. <br> 2. PCI en kJ: $5491 \\text{ kcal/kg} \\cdot 4.186 = 22,985 \\text{ kJ/kg}$. <br> 3. Consum: $5.325 \\cdot 10^{9} / 22,985 = 231,700 \\text{ kg/h} \approx 232 \\text{ t/h}$."
+    feedback: "1. Energia tèrmica total: $550,000 \\text{ kW} \\cdot 9683 \\text{ kJ/kWh} = 5.325 \\cdot 10^{9} \\text{ kJ/h}$. <br> 2. PCI en kJ: $5491 \\text{ kcal/kg} \\cdot 4.186 = 22,985 \\text{ kJ/kg}$. <br> 3. Consum: $5.325 \\cdot 10^{9} / 22,985 = 231,700 \\text{ kg/h} \\approx 232 \\text{ t/h}$."
   },
   {
     id: 183,
@@ -2626,7 +2626,7 @@ const bancoDePreguntas = [
       "d) 115,400 t/año"
     ],
     correcta: "b",
-    feedback: "1. Energia elèctrica anual: $225,000 \\text{ kW} \\cdot 8760 \\text{ h} \\cdot 0.20 = 3.942 \\cdot 10^{8} \\text{ kWh}$. <br> 2. Energia tèrmica necessària: $3.942 \\cdot 10^{8} / 0.38 = 1.037 \\cdot 10^{9} \\text{ kWh}$. <br> 3. En kcal ($1 \\text{ kWh} = 860 \\text{ kcal}$): $8.92 \\cdot 10^{11} \\text{ kcal}$. <br> 4. Massa: $8.92 \\cdot 10^{11} / 5100 = 174,900,000 \\text{ kg} \approx 182,318 \\text{ t}$ (segons decimals usats)."
+    feedback: "1. Energia elèctrica anual: $225,000 \\text{ kW} \\cdot 8760 \\text{ h} \\cdot 0.20 = 3.942 \\cdot 10^{8} \\text{ kWh}$. <br> 2. Energia tèrmica necessària: $3.942 \\cdot 10^{8} / 0.38 = 1.037 \\cdot 10^{9} \\text{ kWh}$. <br> 3. En kcal ($1 \\text{ kWh} = 860 \\text{ kcal}$): $8.92 \\cdot 10^{11} \\text{ kcal}$. <br> 4. Massa: $8.92 \\cdot 10^{11} / 5100 = 174,900,000 \\text{ kg} \\approx 182,318 \\text{ t}$ (segons decimals usats)."
   },
   {
     id: 203,
@@ -3094,7 +3094,7 @@ const bancoDePreguntas = [
       "d) 91%"
     ],
     correcta: "b",
-    feedback: "1. Energia útil: $280,000 \\text{ kg/h} \\cdot 800 \\text{ kcal/kg} = 2.24 \\cdot 10^{8} \\text{ kcal/h}$. <br> 2. Energia aportada: $45,000 \\text{ kg/h} \\cdot 6000 \\text{ kcal/kg} = 2.7 \\cdot 10^{8} \\text{ kcal/h}$. <br> 3. Rendiment: $2.24 / 2.7 = 0.829 \approx 83\\%$."
+    feedback: "1. Energia útil: $280,000 \\text{ kg/h} \\cdot 800 \\text{ kcal/kg} = 2.24 \\cdot 10^{8} \\text{ kcal/h}$. <br> 2. Energia aportada: $45,000 \\text{ kg/h} \\cdot 6000 \\text{ kcal/kg} = 2.7 \\cdot 10^{8} \\text{ kcal/h}$. <br> 3. Rendiment: $2.24 / 2.7 = 0.829 \\approx 83\\%$."
   },
   {
     id: 239,
@@ -3770,7 +3770,7 @@ const bancoDePreguntas = [
       "d) Solo CO2 y H2O"
     ],
     correcta: "b",
-    feedback: "La reacció és: $CH_4 + 2(O_2 + 3.76 N_2) \rightarrow CO_2 + 2H_2O + 7.52 N_2$. El nitrogen de l'aire no reacciona però surt amb els fums."
+    feedback: "La reacció és: $CH_4 + 2(O_2 + 3.76 N_2) \\rightarrow CO_2 + 2H_2O + 7.52 N_2$. El nitrogen de l'aire no reacciona però surt amb els fums."
   },
 {
     id: 291,
@@ -3783,7 +3783,7 @@ const bancoDePreguntas = [
       "d) 62,1%"
     ],
     correcta: "c",
-    feedback: "1. Potència tèrmica aportada ($Q_{in}$): $18.5 \\text{ m}^3\\text{/s} \\cdot 38000 \\text{ kJ/m}^3 = 703,000 \\text{ kJ/s} = 703 \\text{ MW}$. <br> 2. Eficiència: $400 / 703 = 0.5689 \approx 56.9\\%$."
+    feedback: "1. Potència tèrmica aportada ($Q_{in}$): $18.5 \\text{ m}^3\\text{/s} \\cdot 38000 \\text{ kJ/m}^3 = 703,000 \\text{ kJ/s} = 703 \\text{ MW}$. <br> 2. Eficiència: $400 / 703 = 0.5689 \\approx 56.9\\%$."
   },
   {
     id: 292,
@@ -3809,7 +3809,7 @@ const bancoDePreguntas = [
       "d) 44 m3/s"
     ],
     correcta: "b",
-    feedback: "Per la reacció $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$, 1 mol de metà produeix 1 mol de $CO_2$. Segons la llei d'Avogadro, a mateixa P i T, els cabals volumètrics són iguals: $10 \\text{ m}^3\\text{/s}$."
+    feedback: "Per la reacció $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$, 1 mol de metà produeix 1 mol de $CO_2$. Segons la llei d'Avogadro, a mateixa P i T, els cabals volumètrics són iguals: $10 \\text{ m}^3\\text{/s}$."
   },
   {
     id: 294,
@@ -4004,7 +4004,7 @@ const bancoDePreguntas = [
       "d) 32 m3/s"
     ],
     correcta: "b",
-    feedback: "Com que la reacció és 1:1 ($1 \\\text{ CH}_4 \rightarrow 1 \\\text{ CO}_2$), el volum de gas emès és el mateix que el de combustible consumit."
+    feedback: "Com que la reacció és 1:1 ($1 \\\text{ CH}_4 \\rightarrow 1 \\\text{ CO}_2$), el volum de gas emès és el mateix que el de combustible consumit."
   },
   {
     id: 309,
@@ -4017,7 +4017,7 @@ const bancoDePreguntas = [
       "d) 95,2 t/h"
     ],
     correcta: "b",
-    feedback: "1. Calor necessari: $222,000 \\text{ kW} \\cdot 2280 \\text{ kcal/kWh} = 506,160,000 \\text{ kcal/h}$. <br> 2. Massa: $506,160,000 / 4250 = 119,096 \\text{ kg/h} \approx 119.1 \\text{ t/h}$."
+    feedback: "1. Calor necessari: $222,000 \\text{ kW} \\cdot 2280 \\text{ kcal/kWh} = 506,160,000 \\text{ kcal/h}$. <br> 2. Massa: $506,160,000 / 4250 = 119,096 \\text{ kg/h} \\approx 119.1 \\text{ t/h}$."
   },
   {
     id: 310,
@@ -4030,6 +4030,6 @@ const bancoDePreguntas = [
       "d) 65,0%"
     ],
     correcta: "b",
-    feedback: "1. Potència tèrmica ($Q_{in}$): $10 \\text{ m}^3\\text{/s} \\cdot 35000 \\text{ kJ/m}^3 = 350,000 \\text{ kJ/s} = 350 \\text{ MW}$. <br> 2. Rendiment: $180 / 350 = 0.5142 \approx 51.4\\%$."
+    feedback: "1. Potència tèrmica ($Q_{in}$): $10 \\text{ m}^3\\text{/s} \\cdot 35000 \\text{ kJ/m}^3 = 350,000 \\text{ kJ/s} = 350 \\text{ MW}$. <br> 2. Rendiment: $180 / 350 = 0.5142 \\approx 51.4\\%$."
   }
 ];
